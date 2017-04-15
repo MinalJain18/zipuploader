@@ -2,11 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/D:/projects/zipuploader/app/controllers/notes_controller.rb</file>
-            <file>file:/D:/projects/zipuploader/app/models/read_note.rb</file>
-            <file>file:/D:/projects/zipuploader/config/routes.rb</file>
-            <file>file:/D:/projects/zipuploader/app/views/notes/show.html.erb</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

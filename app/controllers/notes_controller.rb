@@ -29,7 +29,7 @@ class NotesController < ApplicationController
     @list ,@file_info = ReadNote.list_file_content(params[:id])
   end
   
-  def show_file_data
+  def show_file_data  #to display the contents
    render :xml => 'abc'
   end
    
