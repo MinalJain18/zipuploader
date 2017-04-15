@@ -1,0 +1,19 @@
+ 
+<table class = "table table-bordered table-striped">
+
+
+  <tbody>
+    <% @file_info.each do |file| %>
+
+      <tr>      
+
+        
+          <td><%= link_to file[:unzipname] ,file ,method: :show_file_data   %></td>
+       
+
+      </tr>
+
+    <% end %>
+  </tbody>
+
+</table>
