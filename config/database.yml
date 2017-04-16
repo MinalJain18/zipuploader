@@ -25,6 +25,18 @@ default: &default
 development:
   <<: *default
   database: storager
+  
+  
+test:
+  adapter: sqlserver
+  dataserver: MSS2015\SQLEXPRESS
+  mode : dblib
+  encoding: utf8
+  username: sa
+  password: jewel
+  database: storager_test
+  session_options: ["SET TEXTSIZE 1000000000","SET LANGUAGE us_english"]
+  timeout: 0
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".

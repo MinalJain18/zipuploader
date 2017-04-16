@@ -30,7 +30,8 @@ class NotesController < ApplicationController
   end
   
   def show_file_data  #to display the contents
-   render :xml => 'abc'
+    @data = params[:data]
+    #   render :xml => data
   end
    
   private

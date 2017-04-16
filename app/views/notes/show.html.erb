@@ -1,16 +1,15 @@
- 
+
 <table class = "table table-bordered table-striped">
 
 
   <tbody>
-    <% @file_info.each do |file| %>
+    <% @file_info.each do |info| %>
 
-      <tr>      
+      <tr>
 
+
+        <td><%=link_to  info[:unzipname] %></td>
         
-          <td><%= link_to file[:unzipname] ,file ,method: :show_file_data   %></td>
-       
-
       </tr>
 
     <% end %>
