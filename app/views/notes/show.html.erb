@@ -7,9 +7,10 @@
 
       <tr>
 
+ <td><%= button_to "#{info[:unzipname]}", method: :post , controller: "notes", action: "show_file_data",
+  params: { 'file_id' => info[:file_id] , 'filename' => info[:unzipname]}%> </td>
 
-        <td><%=link_to  info[:unzipname] %></td>
-        
+
       </tr>
 
     <% end %>
